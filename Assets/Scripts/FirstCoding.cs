@@ -17,7 +17,7 @@ public class FirstCoding : MonoBehaviour
     //실수형 변수 선언하기
     public float numberFloat1;
     public float numberFloat2;
-    int numberResult;
+    float numberResult;
 
 
 
@@ -61,10 +61,10 @@ public class FirstCoding : MonoBehaviour
         // print(numberRemainder);
 
         //numberInt1과 numberInt2 변수의 합계 값을 출력한다.
-       // numberSum = Sum(numberInt1, numberInt2);
-    //    print(numberSum);
+        // numberSum = Sum(numberInt1, numberInt2);
+        //    print(numberSum);
 
-        result = Sum(numberInt1, numberInt2)
+        result = Sum(numberInt1, numberInt2);
         print(result);
 
         result = Subtract(numberInt1, numberInt2);
@@ -114,8 +114,8 @@ public class FirstCoding : MonoBehaviour
     }
     //두 정수의 값을 입력 받아서, 두 정수의 나눗셈 결과를 실수형태로 반환
     // 입력받은 정수를 실수로 임시 형변환을 한다
-    int Divide(int num1, int num2)
-    { return(float) num1 /float num2;
+    float Divide(int num1, int num2)
+    { return(float) num1 /(float) num2;
         }
 
 
