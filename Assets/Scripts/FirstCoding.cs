@@ -27,7 +27,7 @@ public class FirstCoding : MonoBehaviour
 
 
     //논리형 변수 선언하기
-    public bool isman;
+    public bool isMan;
 
 
     // Start is called before the first frame update

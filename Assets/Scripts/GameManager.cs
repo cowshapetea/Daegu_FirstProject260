@@ -41,19 +41,19 @@ public class GameManager : MonoBehaviour
         #endregion
 
 
-        ////SwordMan fighter = new SwordMan(200, 10, "최고");
         //SwordMan fighter = new SwordMan(200, 10, "최고");
+        SwordMan fighter = new SwordMan();
 
-        //// Property를 사용하여 변수에 접근하기
-        //fighter.healthPoint = 500;
-        //print(fighter.healthPoint);
+        // Property를 사용하여 변수에 접근하기
+        fighter.healthPoint = 500;
+        print(fighter.healthPoint);
 
-        //// 함수를 사용하여 변수에 접근하기
-        //fighter.SetHP(500);
-        //int hp = fighter.GetHP();
-        //print(hp);
+        // 함수를 사용하여 변수에 접근하기
+        fighter.SetHP(500);
+        int hp = fighter.GetHp();
+        print(hp);
 
-       
+
 
         //Maze maze = new Maze();
 
@@ -80,17 +80,18 @@ public class GameManager : MonoBehaviour
         for (int i = 0; i < 3; i++)
         {
 
-            int number1 = 0;
-            number1 += 10;
-            print(number1);
+            int number = 0;
+            number += 10;
+            print(number);
 
             //int number = 50;
             //print(number);
         }
 
-        int number = 0;
+      
         for (int i = 0; i < 3; i++)
         {
+            int number = 0;
             number = 0;
             number += 10;
             print(number);

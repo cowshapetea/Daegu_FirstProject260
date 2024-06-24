@@ -14,10 +14,11 @@ public class SecondCoding : MonoBehaviour
     public bool runState;
     public bool walkState;
     public int endCount = 100;
+    public int printMax = 10;
 
     int sum = 0;
     int printCount = 0;
-    public int printMax = 10;
+   
 
     
 
@@ -155,9 +156,9 @@ public class SecondCoding : MonoBehaviour
         //{ sum = sum + i + 1; }    
         //print(sum);
 
-        //for (int i = 0; i < endCount; i = i + 1)
-        //{ sum = sum + i + 1; }
-        //print("원하시는 합계 값은 " + sum.ToString() + "입니다.");
+        for (int i = 0; i < endCount; i = i + 1)
+        { sum = sum + i + 1; }
+        print("원하시는 합계 값은 " + sum.ToString() + "입니다.");
 
         // 위 아래 둘(셋) 다 가능
 

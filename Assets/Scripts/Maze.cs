@@ -10,7 +10,7 @@ public class Maze : SwordMan
     {
         //MoverForward();
         //MoverForward();
-        //Move();
+        Move();
     }
 
     // Update is called once per frame
@@ -20,13 +20,13 @@ public class Maze : SwordMan
     }
 
 
-    //public override void Move()
-    //{
-    //    base.Move();
+    public override void Move()
+    {
+        base.Move();
 
-    //    print("먼지가 발생합니다");
-    //}
-    //{
-       // print("앞으로 간다");
+        print("먼지가 발생합니다");
     }
+    
+    // print("앞으로 간다");
+}
     
